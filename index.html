@@ -5,269 +5,216 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-	<link rel="stylesheet" media="(max-width:959px)" href="./css/mobileFirst.css">
-	<link rel="stylesheet" media="(min-width:960px)" href="./css/lg.css">
+	<link rel="stylesheet" href="./css/main.css">
+	<link rel="stylesheet" media="(min-width:768px)" href="./css/tabletPortrait.css">
+	<link rel="stylesheet" media="(min-width:1440px)" href="./css/Dreamshare_desktop.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&display=swap"
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300&display=swap"
 		rel="stylesheet">
-	<title>HW-11</title>
+
+	<title>HW-12</title>
 </head>
 
-<body class="px-0 mx-0">
-	<div class="container-fluid general mx-auto px-0 w-100">
-		<header class="first py-4 px-4 px-lg-5 py-lg-5">
-
-			<nav
-				class="mb-4 py-3 px-2 ps-lg-5 ms-lg-5 pe-lg-5 me-lg-5 mb-lg-5 px-lg-0 d-flex d-flex flex-lg-row-reverse align-items-center">
-				<!-- <div class="d-none d-lg-block col-lg-1 ms-lg-4"></div> -->
-				<div class="col-3 col-lg-6 text-start">
-					<a class="d-lg-none" href="#"><img src="./img/GlobalNavButton(E700).svg" alt=""></a>
-
-					<ul class="d-none d-lg-flex flex-row justify-content-between align-items-center">
-						<li class=""><a class=" text-light" href="">Home</a></li>
-						<li class=""><a class=" text-light" href="">About</a></li>
-						<li class=""><a class=" text-light" href="">Skills</a></li>
-						<li class=""><a class=" text-light" href="">Portfolio</a></li>
-						<li class=""><a class=" text-light" href="">Contact</a></li>
-					</ul>
-				</div>
-				<div class="col-6 col-lg-6 text-center text-lg-start">
-					<img src="./img/Logo.svg" alt="">
-				</div>
-				<div class="col-3 col-lg-1 d-lg-none me-lg-4"></div>
-			</nav>
-			<!-- <div class="d-none d-lg-block col-lg-1 me-lg-4"></div> -->
-			<div class="text-center text-lg-start col-lg-12 pt-3 pt-lg-5 ps-lg-5 ms-lg-5">
-				<h1>Hi, It’s Théophile Seyrig</h1>
-				<p class="pt-4 pb-lg-5">Designer from Porto, Portugal</p>
-				<a class="pt-lg-5" href="#">Latest works</a>
+<body>
+	<header>
+		<div class="header__registration">
+			<div class="logIn">Log in</div>
+			<div class="signUp">Sign up</div>
+		</div>
+		<div class="header__logo">
+			<img src="./img/header/DREAMSHARE.svg" alt="Logo">
+		</div>
+		<div class="header__content">
+			<h1>SHARE YOUR HOLIDAY DREAM</h1>
+			<p>And find the perfect partner to fullfill it</p>
+			<div class="header__button">
+				<span>Find your holiday partner</span>
 			</div>
-		</header>
+		</div>
+	</header>
+	<main>
+		<article class="howItWork">
 
-		<main class="text-dark text-center">
-			<section class="mx-2 px-4 pt-4 pb-2 px-lg-5 mx-lg-5 py-lg-5 my-lg-5 about text-lg-start">
-				<h2 class="pb-1 pb-lg-5  mx-lg-5">About</h2>
-				<p class="pt-2  mx-lg-5">Lorem ipsum dolor sit amet, Arcu, sed nisi, mi, arcu libero phasellus tincidunt.
-					Rhoncus,
-					diam penatibus
-					aliquet tellus,
-					in rutrum augue. Pellentesque senectus risus consectetur et sed purus sed. Consectetur adipiscing elit.
-					Egestas
-					porttitor nulla nulla egestas odio pharetra egestas aliquet mollis.</p>
-				<p class=" mx-lg-5">Arcu, sed nisi, mi, arcu libero phasellus tincidunt. Rhoncus, diam penatibus aliquet
-					tellus, in rutrum
-					augue.
-					Pellentesque senectus risus consectetur et sed purus sed. Consectetur adipiscing elit. Egestas porttitor
-					nulla nulla
-					egestas odio pharetra egestas aliquet mollis. diam penatibus aliquet tellus, in rutrum augue.
-					Pellentesque.</p>
+			<h2>How Dreamshare works?</h2>
+
+			<section class="howItWork__step1">
+				<div class="howItWork__step_red">
+					<span>STEP 1</span>
+				</div>
+				<h3>
+					Sed leo enim, condimentum
+				</h3>
+				<p>
+					Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.
+				</p>
 			</section>
 
-			<section class="pb-lg-5 skills d-lg-flex justify-content-between px-lg-5">
-
-				<article class=" d-lg-none skills_img pt-4 text-center text-lg-start ms-lg-5 ps-lg-5">
-					<h2 class="pb-1">Skills</h2>
-					<img class="mt-3" src="./img/Profile Picture.png" alt="">
-				</article>
-
-				<article class="d-lg-none mx-2 px-4 pt-4 mt-1 col-lg-7 text-start me-lg-5 pe-lg-5">
-					<!-- <div class="d-none d-lg-block "></div> -->
-					<div class="prfile d-flex justify-content-between">
-						<span class="col-3">Profile</span>
-						<span class="col-8">UI / UX Engineer, Front-end Developer</span>
-					</div>
-					<div class="frondEndDev mt-1">
-
-						<div class="pt-3 d-flex justify-content-between">
-							<div class="">Front-end Dev</div>
-							<div class="progress col-8 rounded-0" style="background-color: #F5D6AB;">
-								<div class=" progress-bar progress-bar" role="progressbar"
-									style="width: 65%; background-color:#C66C49;" aria-valuenow="75" aria-valuemin="0"
-									aria-valuemax="65"></div>
-							</div>
-						</div>
-						<div class="tools pt-3 d-flex justify-content-between">
-							<span class="col-3">Tools</span>
-							<span class="col-8">HTML, CSS, JS, Bootstrap, React</span>
-						</div>
-					</div>
-
-					<div class="uiDesign mt-2">
-
-						<div class="pt-3 d-flex justify-content-between">
-							<div class="">UI Design</div>
-							<div class="progress col-8 rounded-0" style="background-color: #F5D6AB;">
-								<div class=" progress-bar progress-bar" role="progressbar"
-									style="width: 80%; background-color:#C66C49;" aria-valuenow="75" aria-valuemin="0"
-									aria-valuemax="80"></div>
-							</div>
-						</div>
-						<div class="tools pt-3 d-flex justify-content-between">
-							<span class="col-3">Tools</span>
-							<span class="col-8">Adobe PS, AI, XD, Figma, InVision</span>
-						</div>
-					</div>
-
-					<div class="uxResearch mt-2 pb-4">
-
-						<div class="pt-3 d-flex justify-content-between">
-							<div class="">UX Research</div>
-							<div class="progress col-8 rounded-0" style="background-color: #F5D6AB;">
-								<div class=" progress-bar progress-bar" role="progressbar"
-									style="width: 85%; background-color:#C66C49;" aria-valuenow="75" aria-valuemin="0"
-									aria-valuemax="85"></div>
-							</div>
-						</div>
-						<div class="tools pt-3 pb-2 d-flex justify-content-between">
-							<span class="col-3">Tools</span>
-							<span class="col-8">Paper, Pen, Balsamiq</span>
-						</div>
-					</div>
-				</article>
-
-				<article class="w-100 skills d-none d-lg-block mx-lg-5 px-lg-5 py-5">
-					<header class="text-start pt-5">
-						<h2 class="pb-1">Skills</h2>
-					</header>
-					<main class="d-flex text-start row-cols-2 pb-5">
-						<section class="img col-4">
-							<img class="mt-5" src="./img/Profile Picture.png" alt="">
-						</section>
-						<section class="col-8 mt-5 ms-5 ps-5 pe-5 d-flex flex-column justify-content-between">
-
-							<div class="prfile d-flex">
-								<span class="col-3">Profile</span>
-								<span class="col-9">UI / UX Engineer, Front-end Developer</span>
-							</div>
-
-							<div class="frondEndDev mt-1 ">
-
-								<div class="pt-3 d-flex align-items-center">
-									<div class="col-3">Front-end Dev</div>
-									<div class="progress col-9 rounded-0" style="background-color: #F5D6AB;">
-										<div class=" progress-bar progress-bar" role="progressbar"
-											style="width: 65%; background-color:#C66C49;" aria-valuenow="75" aria-valuemin="0"
-											aria-valuemax="65"></div>
-									</div>
-								</div>
-								<div class="tools pt-3 d-flex">
-									<span class="col-3">Tools</span>
-									<span class="col-9">HTML, CSS, JS, Bootstrap, React</span>
-								</div>
-							</div>
-
-							<div class="uiDesign mt-2">
-
-								<div class="pt-3 d-flex align-items-center">
-									<div class="col-3">UI Design</div>
-									<div class="progress col-9 rounded-0" style="background-color: #F5D6AB;">
-										<div class=" progress-bar progress-bar" role="progressbar"
-											style="width: 80%; background-color:#C66C49;" aria-valuenow="75" aria-valuemin="0"
-											aria-valuemax="80"></div>
-									</div>
-								</div>
-								<div class="tools pt-3 d-flex">
-									<span class="col-3">Tools</span>
-									<span class="col-9">Adobe PS, AI, XD, Figma, InVision</span>
-								</div>
-							</div>
-
-							<div class="uxResearch mt-2">
-
-								<div class="pt-3 d-flex align-items-center">
-									<div class="col-3">UX Research</div>
-									<div class="progress col-9 rounded-0" style="background-color: #F5D6AB;">
-										<div class=" progress-bar progress-bar" role="progressbar"
-											style="width: 85%; background-color:#C66C49;" aria-valuenow="75" aria-valuemin="0"
-											aria-valuemax="85"></div>
-									</div>
-								</div>
-								<div class="tools pt-3 d-flex">
-									<span class="col-3">Tools</span>
-									<span class="col-9">Paper, Pen, Balsamiq</span>
-								</div>
-							</div>
-
-						</section>
-					</main>
-				</article>
+			<section class="howItWork__step2">
+				<div class="howItWork__step_red">
+					<span>STEP 2</span>
+				</div>
+				<h3>
+					Morbi velit risus
+				</h3>
+				<p>
+					Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.
+				</p>
 			</section>
 
-			<section class="portfolio text-center mt-4 px-4 mx-2 px-lg-5 mx-lg-5 d-flex flex-column ">
-				<div class="d-lg-none">
-					<h2 class="mb-3">Portfolio</h2>
-					<h3 class="pt-1">UX Research</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac dictum nibh nam odio cursus id. Diam massa
-						semper a
-						tincidunt cursus ultricies lectus eget urna.</p>
+			<section class="howItWork__step3">
+				<div class="howItWork__step_red">
+					<span>STEP 3</span>
 				</div>
-				<div class="grid mt-3 mx-auto d-lg-none">
-					<img class="img-fluid" src="./img/grid/Rectangleg-1.jpg" alt="">
-					<img class="img-fluid" src="./img/grid/Mask Groupg-2.jpg" alt="">
-					<img class="img-fluid" src="./img/grid/Rectangleg-3.jpg" alt="">
-					<img class="gridimg_last img-fluid" src="./img/grid/Rectangleg-4.jpg" alt="">
-				</div>
+				<h3>
+					Sed leo enim, condimentum
+				</h3>
+				<p>
+					Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.
+				</p>
+			</section>
+		</article>
 
-				<div class="d-none d-lg-block mx-lg-5 pt-lg-5 text-start">
-					<h2 class="py-5">Portfolio</h2>
-					<h3 class="py-5">UX Research</h3>
-				</div>
-				<div class="d-none d-lg-flex  mx-lg-5 row-cols-2">
-					<div class="text text-start col-4">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac dictum nibh nam odio cursus id. Diam
-							massa
-							semper a
-							tincidunt cursus ultricies lectus eget urna.</p>
+		<article class="meetPartner">
+			<h2>Meet a partner for your best holiday</h2>
+			<section class="block3">
+				<figure class="meetPartner__person">
+					<div class="meetPartner__avatar">
+						<div class="meetPartner__avatar_photo">
+							<img src="./img/main/meetPerson/avatar/Photo.png" alt="">
+						</div>
+						<div class="meetPartner__avatar_icon">
+							<img src="./img/main/meetPerson/icons/Group1Music.svg" alt="">
+						</div>
+						<figcaption>Bradley Hunter</figcaption>
 					</div>
+					
+					<p class="meetPartner__avatar_about">Based in Chicago. I love playing tennis and loud music.</p>
+				</figure>
 
-					<div class="grid mt-0 ms-5 ps-5 col-8 d-lg-grid">
-						<img class="img-fluid" src="./img/grid/Rectangleg-1.jpg" alt="">
-						<img class="img-fluid" src="./img/grid/Mask Groupg-2.jpg" alt="">
-						<img class="img-fluid" src="./img/grid/Rectangleg-3.jpg" alt="">
-						<img class="gridimg_last img-fluid" src="./img/grid/Rectangleg-4.jpg" alt="">
-					</div>
+				<figure class="meetPartner__person">
+					<div class="meetPartner__avatar">
+						<div class="meetPartner__avatar_photo">
+							<img src="./img/main/meetPerson/avatar/Photo2.png" alt="">
+						</div>
+						<div class="meetPartner__avatar_icon">
+							<img src="./img/main/meetPerson/icons/Group2.svg" alt="">
+						</div>
+						<figcaption>Diana Wells</figcaption>
+					</div>					
+					<p class="meetPartner__avatar_about">Living in Athens, Greece. I love black and white classics, chillout music and green tea.</p>
+				</figure>
 
+				<figure class="meetPartner__person">
+					<div class="meetPartner__avatar">
+						<div class="meetPartner__avatar_photo">
+							<img src="./img/main/meetPerson/avatar/Photo3.png" alt="">
+						</div>
+						<div class="meetPartner__avatar_icon">
+							<img src="./img/main/meetPerson/icons/Group3.svg" alt="">
+						</div>
+						<figcaption>Marie Bennett</figcaption>
+					</div>					
+					<p class="meetPartner__avatar_about">Currently living in Colorado. Lover of art, languages and travelling.</p>
+				</figure>
+
+				
+				<figure class="meetPartner__person">
+					<div class="meetPartner__avatar">
+						<div class="meetPartner__avatar_photo">
+							<img src="./img/main/meetPerson/avatar/Bitmap4.png" alt="">
+						</div>
+						<div class="meetPartner__avatar_icon">
+							<img src="./img/main/meetPerson/icons/Group4.svg" alt="">
+						</div>
+						<figcaption>Christopher Pierce</figcaption>
+					</div>					
+					<p class="meetPartner__avatar_about">Star Wars fanatic. I have a persistent enthusiasm to create new things.</p>
+				</figure>
+			</section>
+			<section>
+				<div class="meetPartner__button">
+					<span>See other partners</span>
+				</div>				
+			</section>
+		</article>
+
+		<article class="ideas">
+			<h2>Discover holiday <br> activity ideas</h2>
+			<section class="ideas__grid">
+				<div class="ideas__type ideas__type_bgi1">
+					<a href="">
+						<h2>Sports and <br>Activis</h2>
+						
+					</a>
+				</div>
+				<div class="ideas__type ideas__type_bgi2">
+					<a href="">
+						<h2>Wellness and <br>Health</h2>
+						
+					</a>
+				</div>
+				<div class="ideas__type ideas__type_bgi3">
+					<a href="">
+						<h2>Extreme Sports<br> and Expeditions</h2>
+					</a>
+				</div>
+				<div class="ideas__type ideas__type_bgi4">
+					<a href="">
+						<h2>Games</h2>
+					</a>
+				</div>
+				<div class="ideas__type ideas__type_bgi5">
+					<a href="">
+						<h2>Culture and Education</h2>
+					</a>
+				</div>
+				<div class="ideas__type ideas__type_bgi6">
+					<a href="">
+						<h2>Enjomet and Relaxation</h2>
+					</a>
+				</div>
+				<div class="ideas__type ideas__type_bgi7">
+					<a href="">
+						<h2>Trevelling</h2>
+					</a>
 				</div>
 			</section>
-		</main>
-		<footer class="mt-3 pt-4 px-lg-5 w-lg-100">
-			<div class="text-center text-lg-start  px-4 mx-2 mx-lg-5 px-lg-5 pt-lg-5 mt-lg-5 py-lg-5">
-				<h2 class="text-dark mt-2">Get in Touch</h2>
+		</article>
+		<article class="callToAction">
+			<h2>Crate your holiday activity</h2>
+			<label for="interest-search">Hi! What are your holiday interests?</label>
+			<form action="#">
+				
+				<input type="search" id="interest-search" name="q" placeholder="Enter your insterests" aria-label="Search through site content">
+				<button>Search partners</button>
+			</form>
+		</article>
+	</main>
+	<footer>
+		<hr>
+		<section>
+			<img class="dream" src="./img/footer/DREAMSHARE.svg" alt="logo">
+			<div class="nav">
+				<h3>Company</h3>
+				<ul>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Press</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Terms and Privacy</a></li>
+					<li><a href="#">Help</a></li>
+				</ul>
 			</div>
-			<div class="px-4 mx-3 d-flex flex-wrap row-cols-lg-4 mx-lg-5 px-lg-5">
-				<div class="col-6 py-2 d-flex flex-column">
-					<a class="py-2" href="">Dribbble</a>
-					<a class="py-2" href="">Behance</a>
-					<a class="py-2" href="">CodePen</a>
-					<a class="py-2" href="">GitHub</a>
-					<a class="py-2" href="">Medium</a>
-				</div>
-				<div class="col-6 ps-3 py-2 d-flex flex-column">
-					<a class="py-2" href="">LinkedIn</a>
-					<a class="py-2" href="">Facebook</a>
-					<a class="py-2" href="">Instagram</a>
-					<a class="py-2" href="">Twitter</a>
-				</div>
-				<div class="col-6 pb-4 d-flex flex-column">
-					<a class="py-1" href="">seyrig@mailme.com</a>
-					<a class="" href="">+ 55 6645 665544</a>
-				</div>
+			<div class="footer__partners">
+				<h3>Partners</h3>
 			</div>
-			<!-- <div>
-				<a href=""><img src="" alt=""></a>
-			</div> -->
-		</footer>
-	</div>
-
-
-	<!-- Bootstrap js -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-		crossorigin="anonymous"></script>
+			<div class="footer__designed">
+				<span>DESIGNED BY</span>
+				<img src="./img/footer/Bitmap.svg" alt="">
+			</div>
+		</section>
+	</footer>
 </body>
 
 </html>
